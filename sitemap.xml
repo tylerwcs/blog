@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://tylerwcs.github.io/blog/</loc>
+    <lastmod>2022-04-19T14:38:29+08:00</lastmod>
+  </url><url>
+    <loc>http://tylerwcs.github.io/blog/posts/</loc>
+    <lastmod>2022-04-19T14:38:29+08:00</lastmod>
+  </url><url>
+    <loc>http://tylerwcs.github.io/blog/posts/test/</loc>
+    <lastmod>2022-04-19T14:38:29+08:00</lastmod>
+  </url><url>
     <loc>http://tylerwcs.github.io/blog/tags/</loc>
     <lastmod>2022-03-08T14:02:47+08:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>http://tylerwcs.github.io/blog/</loc>
-    <lastmod>2022-03-08T14:02:47+08:00</lastmod>
-  </url><url>
     <loc>http://tylerwcs.github.io/blog/tags/htb/</loc>
-    <lastmod>2022-03-08T14:02:47+08:00</lastmod>
-  </url><url>
-    <loc>http://tylerwcs.github.io/blog/posts/</loc>
     <lastmod>2022-03-08T14:02:47+08:00</lastmod>
   </url><url>
     <loc>http://tylerwcs.github.io/blog/posts/second/</loc>
