@@ -20,21 +20,13 @@
     </item>
     
     <item>
-      <title>Second</title>
-      <link>http://tylerwcs.github.io/blog/posts/second/</link>
-      <pubDate>Tue, 08 Mar 2022 14:02:47 +0800</pubDate>
-      
-      <guid>http://tylerwcs.github.io/blog/posts/second/</guid>
-      <description>wewewewwwwwwwwwwwwwwwwwwewewewewe</description>
-    </item>
-    
-    <item>
-      <title>First</title>
+      <title>Burp Suite</title>
       <link>http://tylerwcs.github.io/blog/posts/first/</link>
       <pubDate>Tue, 08 Mar 2022 14:01:37 +0800</pubDate>
       
       <guid>http://tylerwcs.github.io/blog/posts/first/</guid>
-      <description>testetstetstetsetstetsestestetesetste</description>
+      <description>What is Burp Suite? Burpsuite is a framework that aids in web application penetration testing. Burp Suite is also very commonly used when assessing mobile applications, as the same features which make it so attractive for web app testing translate almost perfectly into testing the APIs powering most mobile apps.
+Whilst Burp Community has a relatively limited feature-set compared to the Professional edition, it still has many superb tools available. These include:</description>
     </item>
     
     
