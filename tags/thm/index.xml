@@ -9,15 +9,17 @@
       <link>http://tylerwcs.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Mar 2022 14:01:37 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/tags/thm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2022 14:02:47 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/tags/thm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Burp Suite</title>
-      <link>http://tylerwcs.github.io/blog/posts/first/</link>
-      <pubDate>Tue, 08 Mar 2022 14:01:37 +0800</pubDate>
+      <title>LazyAdmin [THM Walkthrough]</title>
+      <link>http://tylerwcs.github.io/blog/posts/second/</link>
+      <pubDate>Tue, 08 Mar 2022 14:02:47 +0800</pubDate>
       
-      <guid>http://tylerwcs.github.io/blog/posts/first/</guid>
-      <description>What is Burp Suite? Burpsuite is a framework that aids in web application penetration testing. Burp Suite is also very commonly used when assessing mobile applications, as the same features which make it so attractive for web app testing translate almost perfectly into testing the APIs powering most mobile apps.
-Whilst Burp Community has a relatively limited feature-set compared to the Professional edition, it still has many superb tools available. These include:</description>
+      <guid>http://tylerwcs.github.io/blog/posts/second/</guid>
+      <description>LazyAdmin is a easy rated box on THM. It is a good box to brush up my skills and I learned a lot from it.
+ Enumeration First, I run a Nmap scan and 2 open ports are found: port 80 and port 22
+nmap --top-ports 50 10.10.127.148  Then, I run a gobuster scan to search for other subdirectories, and I found a /content subdirectory page.
+ Exploitation I visit the page and found something new: SweetRice CMS.</description>
     </item>
     
   </channel>

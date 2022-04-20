@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>CS&#39;s Blog</title>
-    <link>http://tylerwcs.github.io/blog/</link>
-    <description>Recent content on CS&#39;s Blog</description>
+    <title>Hacking Tools on CS&#39;s Blog</title>
+    <link>http://tylerwcs.github.io/blog/tags/hacking-tools/</link>
+    <description>Recent content in Hacking Tools on CS&#39;s Blog</description>
     <image>
       <url>http://tylerwcs.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://tylerwcs.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Mar 2022 14:02:47 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LazyAdmin [THM Walkthrough]</title>
-      <link>http://tylerwcs.github.io/blog/posts/second/</link>
-      <pubDate>Tue, 08 Mar 2022 14:02:47 +0800</pubDate>
-      
-      <guid>http://tylerwcs.github.io/blog/posts/second/</guid>
-      <description>LazyAdmin is a easy rated box on THM. It is a good box to brush up my skills and I learned a lot from it.
- Enumeration First, I run a Nmap scan and 2 open ports are found: port 80 and port 22
-nmap --top-ports 50 10.10.127.148  Then, I run a gobuster scan to search for other subdirectories, and I found a /content subdirectory page.
- Exploitation I visit the page and found something new: SweetRice CMS.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 08 Mar 2022 14:01:37 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/tags/hacking-tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Burp Suite</title>
       <link>http://tylerwcs.github.io/blog/posts/first/</link>
@@ -31,8 +19,6 @@ nmap --top-ports 50 10.10.127.148  Then, I run a gobuster scan to search for oth
       <description>What is Burp Suite? Burpsuite is a framework that aids in web application penetration testing. Burp Suite is also very commonly used when assessing mobile applications, as the same features which make it so attractive for web app testing translate almost perfectly into testing the APIs powering most mobile apps.
 Whilst Burp Community has a relatively limited feature-set compared to the Professional edition, it still has many superb tools available. These include:</description>
     </item>
-    
-    
     
   </channel>
 </rss>

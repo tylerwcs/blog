@@ -9,7 +9,19 @@
       <link>http://tylerwcs.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Mar 2022 14:01:37 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2022 14:02:47 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LazyAdmin [THM Walkthrough]</title>
+      <link>http://tylerwcs.github.io/blog/posts/second/</link>
+      <pubDate>Tue, 08 Mar 2022 14:02:47 +0800</pubDate>
+      
+      <guid>http://tylerwcs.github.io/blog/posts/second/</guid>
+      <description>LazyAdmin is a easy rated box on THM. It is a good box to brush up my skills and I learned a lot from it.
+ Enumeration First, I run a Nmap scan and 2 open ports are found: port 80 and port 22
+nmap --top-ports 50 10.10.127.148  Then, I run a gobuster scan to search for other subdirectories, and I found a /content subdirectory page.
+ Exploitation I visit the page and found something new: SweetRice CMS.</description>
+    </item>
+    
     <item>
       <title>Burp Suite</title>
       <link>http://tylerwcs.github.io/blog/posts/first/</link>
