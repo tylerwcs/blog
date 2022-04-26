@@ -11,12 +11,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 19 Apr 2022 14:38:29 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lame [HTB Walkthrough]</title>
+      <title>Backdoor [HTB Walkthrough]</title>
       <link>http://tylerwcs.github.io/blog/posts/third/</link>
       <pubDate>Tue, 19 Apr 2022 14:38:29 +0800</pubDate>
       
       <guid>http://tylerwcs.github.io/blog/posts/third/</guid>
-      <description>testing</description>
+      <description>Knowledge Gained 🙉  LFI and Directory Traversal gdbserver screen rustscan wpscan   Enumeration In this machine, I learned a new way to scan for open ports, that is using rustscan. It took less than few seconds for it to find the ports open and it also runs nmap automatically. The scan shows that we have 3 open ports running, port 22, 80 and 1337.
+First I took a look at the port 80 website, it shows that it is a website built using Wordpress, therefore we can run wpscan to enumerate more infos about the website.</description>
     </item>
     
     <item>
