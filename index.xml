@@ -9,7 +9,18 @@
       <link>http://tylerwcs.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 19 Apr 2022 14:38:29 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2022 19:08:29 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cap [HTB Walkthrough]</title>
+      <link>http://tylerwcs.github.io/blog/posts/cap/</link>
+      <pubDate>Wed, 27 Apr 2022 19:08:29 +0800</pubDate>
+      
+      <guid>http://tylerwcs.github.io/blog/posts/cap/</guid>
+      <description>Knowledge Gained 🙉  GTFObins wireshark capabilities   Enumeration First we did a rustscan + nmap scan, which found 3 ports, SSH, FTP, and HTTP.
+rustscan -a 10.10.10.245 Next I run gobuster to find sub directories for the website. Nothing much is interesting.
+gobuster dir -u http://10.10.10.245 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 100  Foothold When I browse around the website, I noticed that the only one interesting page is the data page.</description>
+    </item>
+    
     <item>
       <title>Backdoor [HTB Walkthrough]</title>
       <link>http://tylerwcs.github.io/blog/posts/third/</link>
