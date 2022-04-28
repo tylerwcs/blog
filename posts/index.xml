@@ -9,7 +9,17 @@
       <link>http://tylerwcs.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 27 Apr 2022 19:08:29 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Apr 2022 21:04:00 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Netmon [HTB Walkthrough]</title>
+      <link>http://tylerwcs.github.io/blog/posts/netmon/</link>
+      <pubDate>Thu, 28 Apr 2022 21:04:00 +0800</pubDate>
+      
+      <guid>http://tylerwcs.github.io/blog/posts/netmon/</guid>
+      <description>Knowledge Gained 🙉  psexec Windows File System   Enumeration First off, we scan the machine and noticed a lot of ports opened. WinRM (Windows Remote Management) is a Microsoft protocol that allows remote management of Windows machines over HTTP(S) using SOAP. On the backend it&amp;rsquo;s utilising WMI, so you can think of it as an HTTP based API for WMI.
+I first start off with the ftp server and check if the server allows anonymous acces.</description>
+    </item>
+    
     <item>
       <title>Cap [HTB Walkthrough]</title>
       <link>http://tylerwcs.github.io/blog/posts/cap/</link>
