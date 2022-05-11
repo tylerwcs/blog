@@ -2,7 +2,7 @@
 title: "Netmon [HTB Walkthrough]"
 date: 2022-04-28T21:04:00+08:00
 draft: false
-tags: ["HTB"]
+tags: ["HTB", "Easy"]
 ---
 
 ---

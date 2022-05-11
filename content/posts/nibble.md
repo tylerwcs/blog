@@ -2,7 +2,7 @@
 title: "Nibble [HTB Walkthrough]"
 date: 2022-05-09T19:08:29+08:00
 draft: false
-tags: ["HTB"]
+tags: ["HTB", "Easy"]
 ---
 
 ---

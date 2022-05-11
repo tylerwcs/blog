@@ -2,7 +2,7 @@
 title: "Cap [HTB Walkthrough]"
 date: 2022-04-27T19:08:29+08:00
 draft: false
-tags: ["HTB"]
+tags: ["HTB", "Easy"]
 ---
 
 ---
