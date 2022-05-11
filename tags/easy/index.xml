@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on CS&#39;s Blog</title>
-    <link>http://tylerwcs.github.io/blog/posts/</link>
-    <description>Recent content in Posts on CS&#39;s Blog</description>
+    <title>Easy on CS&#39;s Blog</title>
+    <link>http://tylerwcs.github.io/blog/tags/easy/</link>
+    <description>Recent content in Easy on CS&#39;s Blog</description>
     <image>
       <url>http://tylerwcs.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://tylerwcs.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 09 May 2022 19:08:29 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 19:08:29 +0800</lastBuildDate><atom:link href="http://tylerwcs.github.io/blog/tags/easy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nibble [HTB Walkthrough]</title>
       <link>http://tylerwcs.github.io/blog/posts/nibble/</link>
@@ -62,28 +62,6 @@ gobuster dir -u http://10.10.10.245 -w /usr/share/wordlists/dirbuster/directory-
       <guid>http://tylerwcs.github.io/blog/posts/third/</guid>
       <description>Knowledge Gained 🙉  LFI and Directory Traversal gdbserver screen rustscan wpscan   Enumeration In this machine, I learned a new way to scan for open ports, that is using rustscan. It took less than few seconds for it to find the ports open and it also runs nmap automatically. The scan shows that we have 3 open ports running, port 22, 80 and 1337.
 First I took a look at the port 80 website, it shows that it is a website built using Wordpress, therefore we can run wpscan to enumerate more infos about the website.</description>
-    </item>
-    
-    <item>
-      <title>LazyAdmin [THM Walkthrough]</title>
-      <link>http://tylerwcs.github.io/blog/posts/second/</link>
-      <pubDate>Tue, 08 Mar 2022 14:02:47 +0800</pubDate>
-      
-      <guid>http://tylerwcs.github.io/blog/posts/second/</guid>
-      <description>LazyAdmin is a easy rated box on THM. It is a good box to brush up my skills and I learned a lot from it.
- Enumeration First, I run a Nmap scan and 2 open ports are found: port 80 and port 22
-nmap --top-ports 50 10.10.127.148  Then, I run a gobuster scan to search for other subdirectories, and I found a /content subdirectory page.
- Exploitation I visit the page and found something new: SweetRice CMS.</description>
-    </item>
-    
-    <item>
-      <title>Burp Suite</title>
-      <link>http://tylerwcs.github.io/blog/posts/first/</link>
-      <pubDate>Tue, 08 Mar 2022 14:01:37 +0800</pubDate>
-      
-      <guid>http://tylerwcs.github.io/blog/posts/first/</guid>
-      <description>What is Burp Suite? Burpsuite is a framework that aids in web application penetration testing. Burp Suite is also very commonly used when assessing mobile applications, as the same features which make it so attractive for web app testing translate almost perfectly into testing the APIs powering most mobile apps.
-Whilst Burp Community has a relatively limited feature-set compared to the Professional edition, it still has many superb tools available. These include:</description>
     </item>
     
   </channel>

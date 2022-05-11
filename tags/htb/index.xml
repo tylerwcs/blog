@@ -32,6 +32,18 @@ I first start off with the ftp server and check if the server allows anonymous a
     </item>
     
     <item>
+      <title>Bashed [HTB Walkthrough]</title>
+      <link>http://tylerwcs.github.io/blog/posts/bashed/</link>
+      <pubDate>Wed, 27 Apr 2022 19:08:29 +0800</pubDate>
+      
+      <guid>http://tylerwcs.github.io/blog/posts/bashed/</guid>
+      <description>Knowledge Gained 🙉  su   Enumeration First, we start off with a rustscan scan, seems that this box only have one open port which is port 80.
+rustscan -a 10.10.10.68 I then move to the website and nothing much was on the website.
+Then, I run gobuster to search for sub-directories under this server. The results returns a few interesting results: /php , /dev , /uploads
+ Foothold Both /php and /uploads have nothing inside, so I move on to /dev.</description>
+    </item>
+    
+    <item>
       <title>Cap [HTB Walkthrough]</title>
       <link>http://tylerwcs.github.io/blog/posts/cap/</link>
       <pubDate>Wed, 27 Apr 2022 19:08:29 +0800</pubDate>
